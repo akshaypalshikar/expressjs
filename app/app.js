@@ -45,7 +45,6 @@ app.get("/",homePageHandler);
 app.get("/speakers",speakersPageHandler);
 app.get("/speaker/:speakerId",speakerByIdPageHandler);
 
-
 /**
  * Creating server.
  */
