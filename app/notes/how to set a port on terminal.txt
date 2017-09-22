@@ -1,0 +1,5 @@
+run with default port.
+node app/app.js
+
+Run with port 4000.
+PORT=4000 node app/app.js
