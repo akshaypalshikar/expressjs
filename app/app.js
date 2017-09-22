@@ -3,7 +3,7 @@ var app=express();
 var SERVER_HTTP_PORT = 3000;
 var PORT_STR = "port";
 var dataFile = require("./data/data.json");
-
+var reload = require("reload");
 /**
  * Creating server.
  */
@@ -19,3 +19,4 @@ var serverHandler = function(){
 }
 
 var server = app.listen(app.get(PORT_STR),serverHandler);
+reload(server,app);

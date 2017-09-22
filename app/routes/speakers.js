@@ -21,6 +21,7 @@ var speakersPageHandler = function(request,response){
     <link rel="stylesheet" type="text/css" href = "/css/style.css">
     <H1>Meetups</H1>
         ${info} 
+        <script src="reload/reload.js"></script>
     `);
 }
 
@@ -34,6 +35,7 @@ var speakerByIdPageHandler = function(request,response){
     <h2> ${speaker.name}</h2>
     <img src="/images/speakers/${speaker.shortname}_tn.jpg" alt="speaker" ></img>
     <p>${speaker.summary}</p>
+    <script src="reload/reload.js"></script>
     `);
 }
 
