@@ -12,5 +12,4 @@ var homePageHandler = function(request,response){
 }
 
 router.get("/",homePageHandler);
-
 module.exports = router;
