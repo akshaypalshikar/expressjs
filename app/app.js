@@ -7,7 +7,7 @@ var dataFile = require("./data/data.json");
 /**
  * Creating server.
  */
-
+app.use(express.static("app/public"));
 app.use(require("./routes/index"));
 app.use(require("./routes/speakers"));
 
