@@ -46,5 +46,7 @@ app.get("/speakers",speakersPageHandler);
 app.get("/speaker/:speakerId",speakerByIdPageHandler);
 
 
-
+/**
+ * Creating server.
+ */
 var server = app.listen(app.get(PORT_STR),serverHandler);
